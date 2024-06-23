@@ -1,0 +1,22 @@
+# Olah Data Semarang
+# WhatsApp : +6285227746673
+# IG : @olahdatasemarang_
+# Bacon-Goodman decomposition for differences-in-differences (DID) estimation with variation in treatment timing Use bacon With (In) R Software 
+# Decomposition for differences-in-differences (DID) estimation with variation in treatment timing from Goodman-Bacon (2018) Use bacon With (In) R Software 
+install.packages("bacondecomp")
+library("bacondecomp")
+bacon = read.csv("https://raw.githubusercontent.com/timbulwidodostp/bacon/main/bacon/bacon.csv",sep = ";")
+# Estimation Bacon-Goodman decomposition for differences-in-differences (DID) estimation with variation in treatment timing Use bacon With (In) R Software
+bacon <- bacon(l_homicide ~ post, data = bacon, id_var = "sid", time_var = "year")
+coef_bacon <- sum(df_bacon$estimate * df_bacon$weight)
+print(paste("Weighted sum of decomposition =", round(coef_bacon, 8)))
+# Bacon-Goodman decomposition for differences-in-differences (DID) estimation with variation in treatment timing Use bacon With (In) R Software 
+# Decomposition for differences-in-differences (DID) estimation with variation in treatment timing from Goodman-Bacon (2018) Use bacon With (In) R Software 
+# Olah Data Semarang
+# WhatsApp : +6285227746673
+# IG : @olahdatasemarang_
+# Finished
+
+
+
+
