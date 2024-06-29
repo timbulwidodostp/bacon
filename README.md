@@ -3,6 +3,8 @@ Bacon-Goodman decomposition for differences-in-differences (DID) estimation with
 
 Decomposition for differences-in-differences (DID) estimation with variation in treatment timing from Goodman-Bacon (2018) Use bacon With (In) R Software
 
+https://www.youtube.com/watch?v=dtqKJcUcQbQ
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
